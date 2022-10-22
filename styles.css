@@ -1,0 +1,197 @@
+:root {
+    width: fit-content;
+    border: 3px dashed darkorange;
+}
+
+/* html */
+body{
+    color: greenyellow;
+    background-color: black;
+}
+
+a {
+    color: goldenrod;
+    font-family: monospace;
+    
+}
+a:hover {
+    color: aqua;
+}
+
+a:visited {
+    color: hotpink;
+}
+
+
+li {
+    margin-right: 20px;
+}
+
+/* Grid Wrapper */
+.wrapper {
+    display: grid;
+    grid-template-columns: fit-content(100%);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    border: 3px solid yellowgreen;
+}
+
+/* Header */
+.grid-one {
+    border: 3px solid red;
+    grid-row-start: auto;
+    grid-column: 1;
+}
+
+/* About Me Section */
+.grid-two {
+    border: 3px solid blue;
+    grid-row: 2 / 4;
+    
+}
+
+/* Projects Section */
+.grid-three {
+    border: 3px solid rgb(47, 255, 0);
+    grid-column: 1 / 2;
+}
+
+/*  Footer */
+.grid-four {
+    border: 3px solid purple;
+    grid-column: 1 / 3;
+    grid-row-end: auto;
+}
+.networking-list{
+    list-style: none;
+    justify-self: center;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 800;
+    border: 1px solid red;
+}
+.header-nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    border: 1px solid black;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: flex-start;
+    text-align: center;
+    border: 2px solid salmon;
+}
+
+.nav-row {
+    display: flex;
+}
+
+.nav-container-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    align-self: center;
+}
+
+.about-me {
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about-me-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 500px;
+}
+.about-me-section-left {
+    width: 500px;
+    border:rgb(47, 255, 0) solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.about-me-section-right {
+    width: 500px;
+    border:rgb(47, 255, 0) solid 1px;
+}
+/* Main Picture */
+.hero-image {
+    height: 90%;
+}
+
+.bio {
+    text-align: center;
+    font-size: 96px;
+    font-weight: 800;
+}
+
+.bio-para {
+    font-size: 28px;
+    line-height: 1.5;
+}
+.contact-me-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 300px;
+}
+.project-images{
+    width: 650px;
+    height: auto;
+}
+
+.skills-ul {
+    text-decoration: none;
+}
+
+.project-title-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.github-icon {
+    background-color: white;
+    margin-right: 30px;
+}
+.linkedin-icon{
+    height: 30px;
+}
+
+.project-body-container {
+    display: flex;
+    flex-direction: row;
+    border: 2px seashell solid;
+    padding: 15px 0 15px 0;
+    margin-bottom: 20px;
+}
+
+.project-body-left {
+    width: 60%;
+}
+
+.project-body-right {
+    width: 30%;
+    padding-right: -20px;
+    justify-items:right;
+}
+.footer-container {
+    border: 1px dashed rgb(47, 255, 0);
+}
+footer{
+    color: greenyellow;
+}
